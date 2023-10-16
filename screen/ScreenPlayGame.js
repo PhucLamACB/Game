@@ -1,5 +1,5 @@
-import { View, Text,ImageBackground,TouchableOpacity,Image,StyleSheet,useState} from 'react-native'
-import React from 'react'
+import React, { useState } from 'react';
+import { Text, View, StyleSheet, ImageBackground, TouchableOpacity ,Image} from 'react-native';
 
 const ScreenPlayGame = () => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
