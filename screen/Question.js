@@ -1,7 +1,7 @@
 import { View, Text,ImageBackground,TouchableOpacity,Image,StyleSheet,useState} from 'react-native'
 import React from 'react'
 
-const ScreenPlayGame = () => {
+const Question = () => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
 
   const handleAnswer = (answerIndex) => {
@@ -154,4 +154,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ScreenPlayGame;
+export default Question;
