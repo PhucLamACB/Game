@@ -1,12 +1,14 @@
 import { View, Text,ImageBackground,TouchableOpacity,Image,StyleSheet } from 'react-native'
 import React from 'react'
-import  ScreenPlayGame  from './screen/ScreenPlayGame'
+import Question from './screen/Question'
+import True from './screen/Truee'
+import False from './screen/False'
 import HomeScreen from './screen/HomeScreen'
 
 const App = () => {
   return (
     <View>
-      <ScreenPlayGame></ScreenPlayGame>
+      <HomeScreen />
     </View>
     
   )
